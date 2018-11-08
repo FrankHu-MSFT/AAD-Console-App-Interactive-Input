@@ -3,7 +3,7 @@ This is a .net console application that will utilize the ADAL .net library in or
 
 The Executable file can be found in the root of this github repo. It is referred to as the Interactive ADAL .net Console Application.
 
-Because the only resource this console app requests for is the Microsoft Graph. You will need to modify the resource in the code and recompile the executable file.
+Because the only resource this console app requests for is the Microsoft Graph. You will need to modify the resource in the code and recompile the executable file if you're interested in making calls to a different resource. 
 
 # Instructions
 Here is a Console Application exe where you can make graph calls using ADAL .NET. 
