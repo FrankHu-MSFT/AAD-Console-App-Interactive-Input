@@ -1,7 +1,7 @@
 # AAD-Console-App-Interactive-Input
 This is a .net console application that will utilize the ADAL .net library in order to get an access token and make a get call. You will need to enter your own App ID, Redirect URI, Tenant ID, and HTTP Get Request
 
-The Executable file can be found in the root of this github repo. It is referred to as the Interactive ADAL .net Console Application.
+The Executable file can be found in the root of this github repo. It is in the zip file called **Interactive Console Application To Make Graph Calls**
 
 Because the only resource this console app requests for is the Microsoft Graph. You will need to modify the resource in the code and recompile the executable file if you're interested in making calls to a different resource. 
 
