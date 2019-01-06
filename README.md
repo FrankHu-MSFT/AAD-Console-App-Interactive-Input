@@ -24,3 +24,7 @@ GET https://graph.microsoft.com/v1.0/directoryRoles
 Please note that you cannot use Post commands using this Console App. If you’re interested in making post commands, let me know by filing a github issue and I can look into implementing that functionality. 
 
 **Also Note the AAD App needs the correct permissions and may require admin consent per the call.**
+
+## Support
+
+This is not a Microsoft Supported Github Repository. There are no plans on future support, but if there are any issues feel free to open the an issue against this repo and I will respond back as soon as possible.
