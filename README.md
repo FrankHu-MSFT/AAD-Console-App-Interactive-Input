@@ -1,3 +1,23 @@
+# !NOTE:
+It is recommended now to utilize the MSAL .net library : https://github.com/AzureAD/microsoft-authentication-library-for-dotnet
+
+This console app may work with the packages :
+```
+<packages>
+  <package id="BouncyCastle.Crypto.dll" version="1.8.1" targetFramework="net461" />
+  <package id="Microsoft.IdentityModel" version="6.1.7600.16394" targetFramework="net461" />
+  <package id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="4.3.0" targetFramework="net461" />
+  <package id="Microsoft.IdentityModel.JsonWebTokens" version="5.3.0" targetFramework="net461" />
+  <package id="Microsoft.IdentityModel.Logging" version="5.3.0" targetFramework="net461" />
+  <package id="Microsoft.IdentityModel.Tokens" version="5.3.0" targetFramework="net461" />
+  <package id="Newtonsoft.Json" version="11.0.2" targetFramework="net461" />
+  <package id="System.IdentityModel.Tokens.Jwt" version="5.3.0" targetFramework="net461" />
+</packages>
+```
+
+But your mileage may vary. See updates for the ADAL library here: 
+https://github.com/AzureAD/azure-activedirectory-library-for-dotnet
+
 # AAD-Console-App-Interactive-Input
 This is a .net console application that will utilize the ADAL .net library in order to get an access token and make a get call. You will need to enter your own App ID, Redirect URI, Tenant ID, and HTTP Get Request
 
